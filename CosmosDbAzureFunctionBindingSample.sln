@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E72FB1D-FF4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDb.NetFramework.FunctionApp", "src\CosmosDb.NetFramework.FunctionApp\CosmosDb.NetFramework.FunctionApp.csproj", "{C4513341-F8BC-4668-B383-8B855DA658B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb.NetCore.FunctionApp", "src\CosmosDb.NetCore.FunctionApp\CosmosDb.NetCore.FunctionApp.csproj", "{C5879EE3-8B75-416B-B115-F7035E662E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDb.NetCore.FunctionApp", "src\CosmosDb.NetCore.FunctionApp\CosmosDb.NetCore.FunctionApp.csproj", "{C5879EE3-8B75-416B-B115-F7035E662E76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
