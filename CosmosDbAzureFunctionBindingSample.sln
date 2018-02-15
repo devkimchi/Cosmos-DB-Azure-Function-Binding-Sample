@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E72FB1D-FF40-4148-8001-3E44FD9B9F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDb.NetFramework.FunctionApp", "src\CosmosDb.NetFramework.FunctionApp\CosmosDb.NetFramework.FunctionApp.csproj", "{C4513341-F8BC-4668-B383-8B855DA658B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb.NetCore.FunctionApp", "src\CosmosDb.NetCore.FunctionApp\CosmosDb.NetCore.FunctionApp.csproj", "{C5879EE3-8B75-416B-B115-F7035E662E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4513341-F8BC-4668-B383-8B855DA658B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4513341-F8BC-4668-B383-8B855DA658B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4513341-F8BC-4668-B383-8B855DA658B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4513341-F8BC-4668-B383-8B855DA658B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5879EE3-8B75-416B-B115-F7035E662E76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5879EE3-8B75-416B-B115-F7035E662E76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5879EE3-8B75-416B-B115-F7035E662E76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5879EE3-8B75-416B-B115-F7035E662E76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4513341-F8BC-4668-B383-8B855DA658B1} = {4E72FB1D-FF40-4148-8001-3E44FD9B9F2E}
+		{C5879EE3-8B75-416B-B115-F7035E662E76} = {4E72FB1D-FF40-4148-8001-3E44FD9B9F2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7584F3F3-8F73-46DB-B9A2-F0EA9F99C00A}
+	EndGlobalSection
+EndGlobal
