@@ -1,11 +1,11 @@
 # Cosmos DB Azure Functions Binding Sample #
 
-This provides sample codes how Azure Functions work with Cosmos DB.
+This provides sample codes how Azure Functions V1 and V2 work with Cosmos DB.
 
 
 ## More Readings ##
 
-* English: [Cosmos DB in Azure Functions v1 and v2](https://localhost/coming-soon)
+* English: [Cosmos DB in Azure Functions v1 and v2](https://blog.mexia.com.au/cosmos-db-in-azure-functions-v1-and-v2)
 * Korean: [애저 펑션 v1과 v2에서 코스모스 DB 활용하기](https://localhost/coming-soon)
 
 
