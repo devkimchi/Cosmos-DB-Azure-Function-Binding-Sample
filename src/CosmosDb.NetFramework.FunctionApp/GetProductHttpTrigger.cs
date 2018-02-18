@@ -17,8 +17,18 @@ using Newtonsoft.Json;
 
 namespace CosmosDb.NetFramework.FunctionApp
 {
+    /// <summary>
+    /// This represents the trigger entity for HTTP request.
+    /// </summary>
     public static class GetProductHttpTrigger
     {
+        /// <summary>
+        /// Invokes the trigger.
+        /// </summary>
+        /// <param name="req"><see cref="HttpRequestMessage"/> instance.</param>
+        /// <param name="collector"><see cref="IAsyncCollector{BrokeredMessage}"/> instance.</param>
+        /// <param name="log"><see cref="TraceWriter"/> instance.</param>
+        /// <returns>Returns the <see cref="HttpResponseMessage"/> instance.</returns>
         [FunctionName("GetProductHttpTrigger")]
         public static async Task<HttpResponseMessage> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", Route = "products/{id}")] HttpRequestMessage req,
